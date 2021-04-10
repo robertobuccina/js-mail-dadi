@@ -2,7 +2,7 @@
 
  
 //creo una lista di email registrate
-var listaEmailValide = ["bello", "brutto"];
+var listaEmailValide = ["geom.robertobc@gmail.com", "pincopallo@libero.it"];
 console.log(listaEmailValide);
 
 //chiedo di inserire l'email attraverso un prompt var ec...
@@ -18,3 +18,19 @@ if (utenteRegistrato === true) {
     alert("utente sconosciuto e/o dati incompleti")
 }
 
+
+
+/*var listaEmailValide = ["geom.robertobc@gmail.com", "pincopallo@libero.it"];
+console.log(listaEmailValide);
+
+var emailInserita = prompt("scrivi qui la tua email");
+
+for (var i = 0; i < listaEmailValide.length; i++){
+    var inserisciEmail = listaEmailValide[i];
+
+    if (inserisciEmail === emailInserita){
+        console.log("bene")
+    } else {
+        console.log("male")
+    }
+}

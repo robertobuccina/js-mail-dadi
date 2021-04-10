@@ -1,0 +1,25 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+img{
+    max-height: 300px;
+}
+
+#winner{
+    display: none;
+}
+
+#loser{
+    display: none;
+}
