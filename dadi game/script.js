@@ -14,14 +14,14 @@ console.log(utenteArtificialeVincente)
 
 var tiraDadi = alert("giochiamo! Tira i dadi")
 
-if (utenteUmanoVincente === true){
+if (utenteUmanoVincente === true) {
     console.log("umano vince");
-    document.getElementById("winner").style.display="block";
+    document.getElementById("winner").style.display = "block";
 
-} else if (utenteArtificialeVincente === true){
+} else if (utenteArtificialeVincente === true) {
     console.log("macchina vince");
-    document.getElementById("loser").style.display="block";
-    
+    document.getElementById("loser").style.display = "block";
+
 
 } else {
     console.log("pareggio")
